@@ -1,0 +1,136 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+
+}
+
+.login
+{
+    width: 500px;
+    padding: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: cyan;
+    margin-top: 50px;
+    border-radius: 10px;
+    padding-bottom: 50px;
+}
+.head{
+    width: 100%;
+    position: relative;
+    /* background-color: blue; */
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.head i{
+    position: absolute;
+    top: 1px;
+    font-size: x-large;
+    right: 5px
+    ;
+}
+
+.login h1{
+    text-align: center;
+    font-family: sans-serif;
+
+}
+
+
+.form{
+    width: 100%;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.name{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.name p{
+
+    font-size: large;
+    color: gray;
+}
+.name input{
+    margin-top: 15px;
+    width: 100%;
+    padding: 15px;
+    font-size: large;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+
+.pass {
+    width: 100%;
+    margin-bottom: 15px;position: relative;
+}
+
+.pass p{
+    font-size: large;
+    color: gray;
+}
+
+.pass i{
+    position: absolute;
+    top: 55px;
+    right: 10px;
+    color: gray;
+}
+
+.pass input{
+    margin-top: 15px;
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    font-size: large;
+    outline: none;
+}
+
+.check{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ctxt span{
+    color: gray;
+}
+
+.forget p{
+    color: red;
+}
+
+
+.btn {
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.btn p{
+    color: gray;
+    font-size: large;
+    margin-top: 20px;
+
+}
+
+.btn a{
+    color: black;
+}
+.btn .button{
+    padding: 15px 150px;
+    font-size: large;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}

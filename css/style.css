@@ -1,0 +1,1033 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+head{
+    width: 100%;
+    padding: 0px 50px;
+}
+
+
+.market
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0px 30px;
+    background-color: #262626;
+    height: auto;
+
+}
+
+.market .img img{
+    width: 152px;
+    height: 70px;
+}
+
+.market .buynow a 
+{
+    text-decoration: none;
+    color: white;
+    background-color: #82b440;
+    padding: 12px 15px;
+    border-radius: 5px;
+}
+
+header {
+    width: 100%;
+    padding: 15px 20px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* background-color: grey; */
+}
+
+.logo {
+    width: 30%;
+
+}
+
+.logo img {
+    width: 40%;
+    /* height: auto; */
+
+}
+
+nav {
+    width: 40%;
+    /* padding: 20px 0px; */
+    /* background-color: red; */
+    
+
+}
+
+nav ul {
+    display: flex; 
+
+    justify-content: space-evenly;
+}
+
+nav ul li {
+    list-style-type: none;
+    font-size: large;
+}
+
+
+.div1
+{
+    width: 25%;
+    
+    display: flex;
+    justify-content: end;
+}
+
+.div1 p{
+    color: black;
+    font-size: large;
+    font-weight: 900;
+    font-style: bold;margin: 0pc 5px;
+}
+
+
+.login a{
+    color: black;
+
+    font-size: large;
+    text-decoration: none;
+    
+}
+
+
+.Register a{
+    color: black;
+    
+    font-size: large;
+    text-decoration: none;
+
+    margin-right: 20px;
+    
+}
+
+
+.submit a
+{
+    color: white;
+    background-color: red;
+    padding: 15px 25px;
+    border-radius: 5px;
+    font-size: large;
+    text-decoration: none;
+}
+
+
+.background{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../images/slider-1.jpg");
+    background-position: fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.background h1{
+    font-size: 100px;
+    color: white;
+}
+
+.background p 
+{
+    color: white;
+    font-size: larger;
+}
+
+.property1 {
+    text-align: center;
+}
+
+
+    
+.property1 h5{
+    font-family: sans-serif;
+    padding-top: 50px;
+    text-align: center;
+    font-weight: 200;
+    color: red;
+}
+
+
+
+h2{
+    font-family: sans-serif;
+    padding-top: 20px;
+    /* text-align: center; */
+    font-weight: 600;
+    /* font-size: 40px; */
+    
+    
+}
+
+
+
+
+.feature{
+    width: 100%;
+    padding: 20px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+   
+    
+    
+}
+
+
+
+.card {
+    margin-top: 50px;
+    width: 30%;
+    height: 500px;
+    /* background-color: red; */
+    border-radius: 20px;
+    border: 2px solid gray;    
+}
+
+.cardimg {
+    width: 100%;
+    height: 50%;
+    
+
+}
+
+.cardimg img {
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.content {
+    padding: 20px 25px;
+}
+
+.content h3 {
+    font-size: 25px;
+}
+
+.content p{
+    margin-top: 20px;
+    font-size: large;
+    color: gray;
+}
+
+.icon 
+{
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: start;
+    margin-top: 10px;
+
+}
+
+.icon i{
+    color: gray;
+}
+
+.icon  p{
+    margin-right: 40px;
+    color: black;
+}
+
+
+.last{
+    display: flex;
+    margin-top: 20px;
+    /* justify-content: center; */
+    align-items: center;
+    
+}
+
+.last h1{
+    margin-left: auto;
+    margin-top: -10px;
+}
+
+.last p{
+    margin-top: -10px;
+}
+.dp
+{
+    
+    display: flex;
+    align-items: center;
+}
+
+.dp img{
+   
+    border-radius: 50%;
+    /* margin-left: -50px; */
+}
+
+.dp p{
+    margin-left: 10px;
+    margin-top: -10px;
+    color: black;
+}
+
+
+.btn {
+    padding: 50px;
+    padding-bottom: 100px;
+    width: 100%;
+    text-align: center;
+}
+
+.btn a{
+    text-decoration: none;
+    padding: 20px 40px;
+    font-weight: 700;
+    font-family: sans-serif;
+    background-color: red;
+    color: white;
+    border-radius: 6px;
+
+    
+}
+
+
+.location{
+    width: 100%;
+    padding: 100px 10px;
+    background-color: whitesmoke;
+
+   
+    
+}
+
+.cardBx
+{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+
+}
+
+.cities {
+    text-align: center;
+}
+
+.cities h5{
+    color: red;
+}
+
+.cities h2{
+    font-size: 50px;
+}
+
+
+.cityimg{
+    width: 23%;
+    margin-top: 50px;
+    
+    height: 500px;
+    border-radius: 10px;
+   
+    
+   
+
+}
+
+.cityimg img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    
+}
+
+
+
+/*  location ends here */
+
+
+
+.house
+{
+    width: 100%;
+    padding: 100px;
+}
+
+.services{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.View a{
+    color: gray;
+    text-decoration: underline red;
+}
+
+
+.houseicons{
+    width: 100%;
+    padding: 50px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buy{
+    width: 30%;
+    /* height: 30px; */
+    padding: 20px;
+    /* background-color: red; */
+    
+}
+
+.buy #icons{
+    margin-top: 30px;
+    font-size: 80px;
+    color:teal;
+}
+
+.buy h2 {
+    font-size: xx-large;
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+.buy p{
+    margin-top: 20px;
+    color: gray;
+    margin-bottom: 30px;
+}
+
+
+
+.buy a{
+    text-decoration: none;
+    color: black;
+    /* vertical-align: middle; */
+}
+
+.buy #icon{
+    vertical-align: middle;
+    font-size: 20px;
+    color: red;
+}
+
+
+.house hr {
+    margin-bottom: 30px;
+}
+
+.buy-content {
+    width: 100%;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+
+.buy-content .number {
+    width: 18%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+.buy-content .number h1 {
+    font-size: 4.5rem;
+    margin-right: 10px;
+    color: red;
+}
+
+.buy-content .number h3 {
+    font-size:1.3rem;
+    margin-left: 10px;
+}
+
+
+/*  here the house section ends */
+
+
+.benefits{
+    width: 100%;
+    background-color: whitesmoke;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.choose
+{
+    width: 100%;
+    text-align: center;
+
+}
+
+.choose p{
+    color: red;
+}
+
+.choose h2{
+    font-size: xx-large;
+}
+
+.customized{
+    width: 100%;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.solutions {
+    width: 30%;
+    text-align: center;
+    padding-top: 40px;
+    /* background-color: cyan; */
+    padding-bottom: 50px;
+}
+
+.solutions i{
+    font-size: 90px;
+}
+
+.solutions p{
+    color: gray;
+}
+
+
+
+
+/*  here the solutions section ends here  */
+
+
+
+.prop{
+    width: 100%;
+    padding: 100px;
+}
+.property{
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 50px;
+   
+}
+.viewall a{
+    text-decoration: none;
+    background-color: red;
+    padding: 15px 25px;
+    border-radius: 5px;
+    color: white;
+    
+}
+
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.leftimg{
+    width: 48%;
+    /* background-color: red; */
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border: 1px solid gray;
+}
+
+.villa
+{
+    width: 100%;
+    height: 50%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+
+.villa img{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.text{
+    padding: 20px;
+}
+
+.text p{
+    color: gray;
+    
+}
+
+.bedicon{
+    margin-top: 20px;
+    display: flex;
+    font-size: x-large;
+}
+
+.bedicon p{
+    color: black;
+    margin-right: 60px;
+}
+
+.bedicon i{
+    color: grey;
+}
+
+
+.last1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.flyodimg{
+    /* padding: 10px; */
+    display: flex;
+    align-items: center;
+    
+}
+.flyodimg img{
+    border-radius: 50%;
+    
+}
+
+.flyodimg p{
+    margin-left: 20px;
+    font-size: x-large;  
+}
+
+
+
+.price span{
+    color: gray;
+    font-weight: 300;
+
+}
+
+
+.rightimg {
+    width: 50%;
+    /* padding: 10px; */
+}
+
+
+.right-box {
+    width: 100%;
+    height: 32.70%;
+   
+    /* background-color: green; */
+    margin-bottom: 10px;
+    display: flex;
+    border: 1px solid grey;
+    border-radius: 10px;
+    
+}
+
+
+.img_box {
+    width: 40%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: red;
+}
+
+.img_box img {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.box_content {
+    width: 60%;
+    padding: 20px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.righttext p{
+    color: gray;
+}
+
+.rightbedicon {
+    margin-top: 15px;
+    display: flex;
+   
+}
+
+
+.rightbedicon i{
+    color: grey;
+}
+
+.rightbedicon p{
+    font-size: larger;
+    margin-right: 25px;
+}
+
+.rightlast{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.rightdp{
+    display: flex;
+    align-items: center;
+}
+
+.rightdp h3{
+    margin-left: 10px;
+}
+.rightdp img{
+    border-radius: 50%;
+    width: 30%;
+}
+
+
+
+
+/*  here the property secton  ends 
+ */
+
+
+ .rating{
+    width: 100%;
+   background-color: whitesmoke;
+    padding: 70px;
+    display: flex;
+    justify-content: space-between;
+ }
+
+
+ .people{
+    width: 30%;
+    padding: 20px;
+    /* background-color: red; */
+ }
+
+ .people h5{
+    color: red;
+ }
+
+ .people h1{
+    font-size: 40px;
+ }
+
+ .angle {
+    width: 100%;
+ }
+ .angle i{
+    padding: 15px;
+    background-color: red;
+    color: white;
+    margin-right: 20px;
+    border-radius: 5px;
+ }
+
+ .anderson{
+    width: 30%;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.anderson i{
+    color: yellow;
+    margin-bottom: 20px;
+}
+
+.anderson p{
+    font-size: large;
+    color: gray;
+}
+
+._dp{
+    display: flex;
+}
+
+.dpimg img{
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+._dp span{
+    font-weight: 200;
+    color: gray;
+    font-size: medium;
+}
+
+
+
+/*  section ends here  */
+
+.team{
+    width: 100%;
+    padding: 50px;
+}
+
+.agents{
+    width: 100%;
+    text-align: center;
+}
+
+.agents h5{
+    color: red;
+}
+
+.agents h1{
+    font-size: 40px;
+}
+
+.template{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+
+}
+
+.bx{
+    width: 23%;
+    padding: 10px;
+}
+
+
+.bx img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.jack{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.jack p{
+    padding-top: 10px;
+    color: gray;
+}
+
+.phone i{
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: lightgray;
+}
+
+/*  here the another section ends */
+
+
+.latest{
+    width: 100%;
+    padding: 50px;
+    background-color: whitesmoke;
+}
+
+.help
+{
+    width: 100%;
+    text-align: center;
+}
+
+.help h5{
+    color: red;
+}
+.help h1{
+    font-size: 40px;
+}
+
+.bed{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.bedimg
+{
+    width: 32%;
+    padding: 20px;
+    
+}
+
+.bedimg img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.boxtext{
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center; 
+    margin-bottom: 10px;
+}
+
+.boxtext p{
+    color: gray;
+    margin-left: 30px;
+    font-size: large;
+}
+
+/*  another section ends here  */
+
+.LOGOS{
+    width: 100%;
+    padding: 50px 100px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo1
+{
+    text-align: center;
+    width: 15%;
+    color: gray;
+    font-size: 20px;
+}
+
+
+
+/*  here the another sction ends here  */
+
+footer{
+    width: 100%;
+    padding: 40px 100px;
+    /* height: 50vh; */
+    background: url(banner-footer.png);
+    background-size: cover;
+    background-position: center;
+    background-color: #161e2d;
+}
+
+
+.footerhead{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.flogo
+{
+    width: 30%;
+}
+
+.footerhead img{
+    width: 50%;
+}
+
+.footerhead p{
+    color: white;
+}
+
+.ficons i{
+    padding: 15px;
+    font-size: 14px;
+    border-radius: 50%;
+    margin-left: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footermid{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.LOCATION{
+    width: 22%;
+}
+
+.LOCATION p{
+    color: lightgray;
+    margin-bottom: 20px;
+}
+
+.LOCATION h5{
+  
+    color: white;
+    margin-left: 10px;
+}
+
+.LOCATION i{
+    padding-right: 16px;
+    color: lightgray;
+}
+
+.CATEGORY {
+    width: 23%;
+
+}
+
+.CATEGORY h4{
+    font-size: 20px;
+    color: white;
+}
+
+.CATEGORY p{
+    color: lightgray;
+    font-size: medium;
+}
+
+.input {
+
+    width: 23%;
+}
+
+.input h3{
+    font-size: 20px;
+    color: white;
+}
+
+.input p{
+    
+    color: gray;
+}
+
+.input input{
+    padding: 15px 40px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    
+    /* border-bottom: 1px solid gray; */
+}
+.input i{
+  
+    color: gray;
+}
